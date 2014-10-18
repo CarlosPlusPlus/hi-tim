@@ -20,7 +20,6 @@ module AppName
     set :javascripts, [:jquery]
 
     get '/' do
-      js  'index'
       erb :index
     end
 
