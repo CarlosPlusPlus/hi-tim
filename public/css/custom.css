@@ -1,51 +1,20 @@
-.row.features {
+body {
+  background-color: #3498db;
 }
 
-.row.header {
-  font: 900 32px/40px "Helvetica Neue", Helvetica, Arial, sans-serif;
+img {
+  margin: auto;
 }
 
-h1 {
-
-	  font-size: 40px;
+.holiday {
+  padding-bottom: 5px;
 }
 
-h3 {
-	  font-size: 20px;
-
+.holiday-img {
+  height: 150px;
+  width: 150px;
 }
 
-
-img { 
-   border:1px solid #021a40;
-
-}
-
-.container {
-
-	padding: 15px
-}
-
-
-.screenshot-one {
-
-	background-color: #ECF0F1;
-}
-
-.login-form {
-	margin-top: 50px;
-	position: relative;
-	padding: 24px 23px 20px;
-	background-color: #edeff1;
-	border-radius: 6px;
-}
-
-.form-group.has-success {
-	visibility: hidden;
-
-}
-
-.form-control  {
-	margin-top: 10px;
-	margin-bottom: 10px;
+#greeting {
+  padding-top: 0;
 }
