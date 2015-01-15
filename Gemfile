@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby   '2.2.0'
 
 gem 'sinatra'                # Core Sinatra library.
 gem 'sinatra-contrib'        # Allow for Reloader.
@@ -16,7 +17,6 @@ group :development, :test do
 
   gem 'better_errors'        # Better error output.
   gem 'binding_of_caller'    # CLI error output.
-  gem 'pry-debugger'         # Ruby debugger.
 
   gem 'capybara'             # Integration testing.
   gem 'factory_girl'         # Test tool for factories.
