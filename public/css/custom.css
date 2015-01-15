@@ -2,6 +2,10 @@ body {
   background-color: #3498db;
 }
 
+h3 {
+  margin-top: 15px;
+}
+
 img {
   margin: auto;
 }
@@ -17,4 +21,14 @@ img {
 
 #greeting {
   padding-top: 0;
+}
+
+@media screen and (max-width: 500px) {
+  section#holiday div.col-sm-4 {
+    margin-bottom: 15px;
+  }
+
+  img#yourock {
+    width: 100%;
+  }
 }
